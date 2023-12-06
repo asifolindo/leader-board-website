@@ -1,0 +1,62 @@
+.navbar img{
+    width: 40.42px;
+    
+}
+body{
+    background-color: #F3F1FF;
+}
+.navbar-brand img{
+    margin-left: 240px;
+}
+.nav-item{
+    padding-right: 25px;
+}
+
+.player img{
+    width: 56px;
+}
+main{
+    max-width: 870px;
+}
+.top-player{
+    background-color: white;
+    border-radius: 10px;
+}
+.blogs img{
+    width: 177px;
+}
+.font{
+    font-size: 20px;
+}
+.course{
+    background-color: white;
+    border-radius: 10px;
+    height: 450px;
+}
+.card-text{
+    font-size: 15px;
+    color: #ED6B4F;
+}
+.card{
+    border: none;
+    box-shadow: 10px 10px 10px burlywood;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+.card-footer img{
+    width: 20.24px;
+}
+.time{
+    background-color: #FEE5DF;
+    border-radius: 20px;
+    height: 20.03px;
+}
+.time img{
+    width: 20.24px;
+    height: 20.03px;
+}

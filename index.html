@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img class="brand-logo" src="images/icons/logo.png" alt="">
+              </a>
+              <p style="font-family: Verdana, Poppins, Geneva, Tahoma, sans-serif; color: #F3F1FF;width: 54px;height: 36px;padding-top: 10px;font-size: larger;">Idea</p>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div style="padding-right: 280px;" class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a style="font-size: small;" class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a style="font-size: small;" class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a style="font-size: small;" class="nav-link" href="#">Works</a>
+                  </li>
+                  <li class="nav-item "><a href=""><img src="images/icons/profile.png" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>  
+    </header>
+    <main class="mx-auto">
+        <section class="container-fluid top-player">
+            <h3 class="m-3" style="color: #562EFF; padding-top: 40px;">Top Player</h3>
+<div class="row">
+    <div class="player d-flex align-items-center col-md-4 p-3 col-sm-6">
+        <img src="images/players/player-1.png" alt="">
+        <p class="p-3 fw-semibold">John Smith</p>
+    </div>
+    <div class="player d-flex align-items-center col-md-4 p-3 col-sm-6">
+        <img src="images/players/player-2.png" alt="">
+        <p class="p-3 fw-semibold">Pro Russel</p>
+    </div>
+    <div class="player d-flex align-items-center col-md-4 p-3 col-sm-6">
+        <img src="images/players/player-3.png" alt="">
+        <p class="p-3 fw-semibold">Abu Suffian</p>
+    </div>
+
+    <div class="player d-flex align-items-center col-md-4 p-3 col-sm-6">
+        <img src="images/players/player-4.png" alt="">
+        <p class="p-3 fw-semibold">Shajedul Karim</p>
+    </div>
+    <div class="player d-flex align-items-center col-md-4 p-3 col-sm-6">
+        <img src="images/players/player-5.png" alt="">
+        <p class="p-3 fw-semibold">Maruf Ahmed</p>
+</div>
+    <div class="player d-flex align-items-center col-md-4 p-3 col-sm-6">
+        <img src="images/players/player-6.png" alt="">
+        <p class="p-3 fw-semibold">Mujahid</p>
+    </div>
+</div>
+
+      <div class="top-blog">
+        <h3 style="color: #562EFF;padding-top: 80px;" class="m-3">Top Blog</h3>
+      </div>
+      <div class="row ">
+        <div class="col-md-6 d-flex align-items-center p-3 blogs">
+          <img src="images/blogs/blog-1.png" alt="">
+          <p class="font fw-semibold p-3">13 of My Favourite <br> UI/UX Goodies <br>
+          <small>By <span style="color: #562EFF;">Danny Sapio</span></small></p>
+        </div>
+        <div class="col-md-6 d-flex align-items-center p-3 blogs">
+          <img src="images/blogs/blog-2.png" alt="">
+          <p class="font fw-semibold p-3">UI Cheat Sheets: <br> lists vs grids <br>
+          By <span style="color: #562EFF;">Tess Gadd</span></p>
+        </div>
+        <div class="col-md-6 d-flex align-items-center p-3 blogs">
+          <img src="images/blogs/blog-3.png" alt="">
+          <p class="font fw-semibold p-3">7 typography tips <br> for interface design <br> 
+          By <span style="color: #562EFF;">Jeremiah Lam</span></p> 
+        </div>
+        <div class="col-md-6 d-flex align-items-center p-3 blogs">
+          <img src="images/blogs/blog-4.png" alt="">
+          <p class="font fw-semibold p-3">Your Logo Is <br> Copied <br>
+          By <Span style="color: #562EFF;">Ferdinand Vogler</Span></p>
+        </div>
+      </div>
+        </section>
+        <section class="container-fluid course">
+          <h3 class="m-3" style="color: #562EFF; padding-top: 40px;" >Latest Course</h3>
+          <div class="cards">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/courses/course-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">React-The Complete Guide 2023</h5>
+                    <p class="card-text">Reed Krakoff</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">
+                      <div class="footer d-flex justify-content-between">
+                        <div class="star">
+                          <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        </div>
+                        <div class="rating">
+                          4.5
+                        </div>
+                        <div class="time d-flex justify-content-end">
+                            <img src="images/icons/clock.png" alt="">
+                            <p>01:30 hr</p>
+                          
+                        </div>
+                      </div>
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/courses/course-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Powerpoint 2023 Master Powerpoint Course</h5>
+                    <p class="card-text">Walter Scott</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">
+                      <div class="footer d-flex justify-content-between">
+                        <div class="star">
+                          <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        </div>
+                        <div class="rating">
+                          4.5
+                        </div>
+                        <div class="time d-flex justify-content-end">
+                            <img src="images/icons/clock.png" alt="">
+                            <p>01:30 hr</p>
+                          
+                        </div>
+                      </div>
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/courses/course-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The Complete Javascript Course 2023</h5>
+                    <p class="card-text">Reed Krakoff</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">
+                      <div class="footer d-flex justify-content-between">
+                        <div class="star">
+                          <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        <img src="images/icons/star.png" alt="">
+                        </div>
+                        <div class="rating">
+                          4.5
+                        </div>
+                        <div class="time d-flex justify-content-end">
+                            <img src="images/icons/clock.png" alt="">
+                            <p>01:30 hr</p>
+                          
+                        </div>
+                      </div>
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
